@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Battle</title>
+    <link rel="stylesheet" href="visual.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Protest+Riot">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+    <div class="battle-container">
+        <h1>¡Una batalla de pokemon cutre ha comenzado!</h1>
+        <div class="battle-scene">
+            <div class="player">
+                <h2>Kulo</h2>
+                <img src="Imagenes/Kuro-fight-back.gif" alt="Player">
+                <div class="health-bar" id="player-health"></div>
+            </div>
+            <div class="enemy">
+                <h2>Kira</h2>
+                <img src="Imagenes/kira-yandere-xD.gif" alt="Enemy">
+                <div class="health-bar" id="enemy-health"></div>
+            </div>
+        </div>
+        <div class="options">
+            <button class="play-button" onclick="attack(10*Math.random())">Arañar</button>
+            <button class="play-button" onclick="attack(15*Math.random())">Morder</button>
+            <button class="play-button" onclick="attack(20*Math.random())">Bailar el ashi ashi</button>
+            <button class="play-button" onclick="attack(5*Math.random())">Pisar</button>
+            <button class="play-button" onclick="run()">Huir</button>
+        </div>
+        <div>
+            <h2 id="message"></h2>
+        </div>
+        <div>
+            <h2 id="attack-message"></h2>
+        </div>
+    </div>
+    <script src="2script.js"></script>
+    <audio autoplay>
+        <source src="music/peaople-eater.wav" type="audio/mp3">
+            Tu navegador no soporta audio HTML5.
+    </audio>
+</body>
+</html>

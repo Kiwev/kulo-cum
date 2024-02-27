@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2330;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.contenedor {
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 70px;
+    color: #b3a5cf;
+    font-family: 'Protest Riot', serif;
+    font-style: italic;
+    
+}
+
+h2 {
+    font-size: 26px;
+    color: #e0d7f0;
+    font-family: 'Protest Riot', serif;
+
+}
+
+.play-button, .otra-button {
+    padding: 10px 20px;
+    font-size: 10px;
+    background-color: #b3a5cf;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+.play-button:hover, .otra-button:hover {
+    background-color: #2b2635;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.title-second-choice {
+    font-size: 36px;
+    color: #b3a5cf;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border: 2px solid #b3a5cf;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #b3a5cf;
+    font-style: normal;
+    font-family: 'Protest Riot', serif;
+}
+
+.icono-corazon, .icono-nube {
+    vertical-align: middle;
+    margin-left: 5px; 
+}
+
+.title-first-choice {
+    font-size: 36px;
+    color: #fefeff;
+    font-style: normal;
+    font-family: 'Protest Riot', serif;
+}
+
+.hidden {
+    display: none;
+}
+
+.contenedor-fight {
+    text-align: center;
+}
+.bosses-name {
+    font-size: 17;
+}
+.bosses-chat {
+    font-size: 15px;
+    color: #f8f4ff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border: 2px solid #b3a5cf;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+}
+
+.bosses-chat::before {
+    content: ''; 
+    position: absolute; 
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent; 
+    border-right: 10px solid transparent; 
+    border-bottom: 10px solid #b3a5cf; 
+    top: -10px;
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+
+.bosses-life {
+    font-size: 10;
+    color: aliceblue;
+    
+}
+.imagenes-container {
+    position: absolute;
+    text-align: center;
+    bottom: 280px;
+    left: 50%;
+    transform: translateX(-50%); /
+}
+
+.img-halo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#img-halo-2 {
+    z-index: 1;
+}
+
+
+.hidden {
+    display: none;
+}
