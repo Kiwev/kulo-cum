@@ -35,17 +35,22 @@
 }
 
 .options {
+    display: flex; /* Utiliza flexbox */
+    flex-direction: column; /* Organiza los botones en una columna */
+    align-items: center; /* Centra horizontalmente */
     margin-top: 20px;
 }
+
 
 h1 {
     font-size: 25px;
 }
 
 .play-button {
-    padding: 15px 30px; 
-    font-size: 16px; 
+    padding: 15px 30px;
+    font-size: 16px;
 }
+
 
 
 
